@@ -63,6 +63,7 @@ int main() {
     printf("O PIB da sua cidade é: %.2f\n", pib);
 
     printf("Aqui estão seus dados da Carta 02:\n");
+
     printf("Estado: %s\n", estado2);
     printf("Código da Carta: %s\n", codigo2dacarta);
     printf("Sua cidade é: %s\n", nome2dacidade);
