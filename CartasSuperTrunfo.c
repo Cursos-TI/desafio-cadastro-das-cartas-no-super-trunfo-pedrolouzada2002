@@ -5,6 +5,11 @@ int main() {
     char codigodacarta[4], nomedacidade[11], codigo2dacarta[4], nome2dacidade[11];
     int populacao, npt, populacao2, npt2;
     float area, pib, area2, pib2;
+    float densPop = populacao / area;
+    float densPop2 = populacao2 / area2;
+    float pibperCapta = pib / populacao;
+    float pibperCapta2 = pib2 / populacao2;
+
 
     printf("Escreva o Estado da sua carta: \n");
     scanf("%s", estado);
@@ -61,6 +66,9 @@ int main() {
     printf("Sua carta tem %d pontos turísticos.\n", npt);
     printf("A Área da sua cidade é: %.2f km²\n", area);
     printf("O PIB da sua cidade é: %.2f\n", pib);
+    printf("A densidade Populacional é: %.2f\n" , densPop);
+    printf("O PIB per Capta é: %.2f\n" , pibperCapta);
+
 
     printf("Aqui estão seus dados da Carta 02:\n");
 
@@ -71,6 +79,8 @@ int main() {
     printf("Sua carta tem %d pontos turísticos.\n", npt2);
     printf("A Área da sua cidade é: %.2f km²\n", area2);
     printf("O PIB da sua cidade é: %.2f\n", pib2);
+    printf("A densidade Populacional é: %.2f\n" , densPop2);
+    printf("O PIB per Capta é: %.2f\n" , pibperCapta2);
 
     return 0;
 }
